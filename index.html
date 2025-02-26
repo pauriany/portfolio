@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Projects</a></li>            
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="#">Glows</a></li>
+            <li><a href="#">Grows</a></li>
+        </ul>
+    </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pauriany Segarra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pauriany Segarra</h1>
+        <img src="headshot.jpg" class="bordered-image" alt="Professional photo" width="200" height="200">
+    </header>
+
+    <div class="wrapper">
+        <form class="form">
+            
+            <div class="secondaryTitle title">Please fill this form to contact me.</div>
+            <input type="text" class="name formEntry" placeholder="Name" />
+            <input type="text" class="email formEntry" placeholder="Email"/>
+            <textarea class="message formEntry" placeholder="Message"></textarea>
+            <input type="checkbox" class="termsConditions" value="Term">
+            <label style="color: grey" for="terms"> I dig your webpage <span style="color: #0e3721"></span></label><br>
+            <button class="submit formEntry" type="submit" onclick="thanks()">Submit</button>
+            
+        </form>
+    </div>
+
+    <main>
+    
+        <br>
+       
+        <section class="project-gallery">
+    
+            <div class="project-gallery-grid">
+                <div class="project-placeholder">
+                    <h2><a href="https://studentweb.cortland.edu/pauriany.segarra/html/port.html" target="_blank">Projects Before</a></h2>
+                    <img src="pastp.png" alt="click title because this works">
+                    <p>This is where you can clearly see how little coding I was able to learn in college. It was not as fun as having a room full of future fellows.</p>
+                </div>
+                <div class="project-placeholder">
+                    <h2><a href="index.html">Projects Now</a></h2>
+                    <img src="nowp.png" alt="this title will take you to the top">
+                    <p>Here you can see the progress I have made since starting to learn coding. I feel more confident, passionate, and frustrated in a good way.</p>
+                </div>
+                <div class="project-placeholder">
+                    <h2>Projects Then</h2>
+                    <img src="futurep.png" alt="insert future project here">
+                    <p>These are my future attempts at coding projects. Although we started simple, they laid the foundation for what I will continue to do.</p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <div class="container">
+            <h3>I am a creator, explorer, and enthusiast of life, please let me know your thoughts. I created this as my first step towards my tech tendencies. I hope it was enjoyable, easy to use and somewhat logical! Thank you so much for visiting.  - P</h3> 
+        </div>
+        <section>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
